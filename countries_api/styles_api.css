@@ -1,0 +1,55 @@
+    body {
+        font-family: 'Arial', sans-serif;
+        background-color: lightcyan;
+        margin: 0;
+        padding: 20px;
+    }
+
+    .container {
+        text-align: center;
+    }
+    label {
+        display: block;
+        margin-bottom: 5px;
+        color: #0066cc; /* Color del texto azul */
+    }
+
+    input {
+        display: flex;
+        padding: 8px;
+        margin-bottom: 10px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        width: 40%;
+        box-sizing: border-box;
+        border: 1px solid #99c2ff; /* Borde del input */
+        border-radius: 5px;
+    }
+
+    button {
+        padding: 10px;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        background-color: #4caf50; /* Color de fondo verde */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background-color: #75fa3c; /* Cambia el color al pasar el ratón */
+        transition: background-color 0.5s;
+
+    }
+
+    #myDiv, #api_chart {
+        margin-top: 20px;
+        padding: 20px;
+        background-color: #ffffff; /* Color de fondo blanco */
+        border: 1px solid #99c2ff; /* Borde de las divisiones */
+        border-radius: 5px;
+    }
+

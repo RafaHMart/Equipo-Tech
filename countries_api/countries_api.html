@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rest countries API</title>
+    <link rel="stylesheet" type="text/css" href="styles_api.css">
+    <script src="https://cdn.plot.ly/plotly-2.29.1.min.js" charset="utf-8"></script>
+    
+</head>
+<body>
+    <div class="container">
+        <label for="api">Ingrese el endpoint</label>
+    </div>
+    <input type="text" id="api">
+    <button type="button" onclick="consumir_api()">Consumir API</button>
+    <div id="api_chart"></div>
+    <script src="consumir_api_countries.js"></script>
+</body>
+</html>
